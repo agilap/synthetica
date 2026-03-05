@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit these
+.env
+cookies.json
+*.json  # catches any exported cookie files
+
+# Trained model weights (use Git LFS or HF Hub instead)
+models/
+!models/.gitkeep
+
+# Temp media files downloaded during analysis
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.avi
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
