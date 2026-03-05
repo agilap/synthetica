@@ -1,0 +1,9 @@
+gradio>=4.0
+diffusers>=0.27
+peft>=0.10
+transformers>=4.40
+torch>=2.1
+opencv-python
+Pillow
+numpy
+accelerate
