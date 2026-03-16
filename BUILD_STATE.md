@@ -3,7 +3,7 @@
 | 0-STATE | Build tracker script and BUILD_STATE.md | ✅ done | 2026-03-16 10:45 | bc1f7ef |
 | 0-ENV | Environment setup script + requirements.txt | ✅ done | 2026-03-16 10:48 | 247141a |
 | 0-STRUCT | Project skeleton and directory structure | ✅ done | 2026-03-16 10:52 | 7def0c3 |
-| 0-TYPES | Shared dataclasses (utils/types.py) | ⬜ pending |  |  |
+| 0-TYPES | Shared dataclasses (utils/types.py) | ✅ done | 2026-03-16 10:54 | b6613f7 |
 | 1-INGESTOR | Image ingestor (pipeline/ingestor.py) | ⬜ pending |  |  |
 | 1-FINGERPRINT | DINOv2 fingerprinter (utils/fingerprint.py) | ⬜ pending |  |  |
 | 2-QUANTIZE | Quantization utilities (utils/quantize.py) | ⬜ pending |  |  |
