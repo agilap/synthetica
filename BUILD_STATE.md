@@ -14,5 +14,5 @@
 | 4-EXPORTER | Dataset exporter (pipeline/exporter.py) | ✅ done | 2026-03-16 11:08 | f718fa2 |
 | 4-VRAM | VRAM guard utilities (utils/vram_guard.py) | ✅ done | 2026-03-16 11:09 | 05dcc2f |
 | 5-APP | Gradio app layout (app.py) | ✅ done | 2026-03-16 11:11 | 6b62ae7 |
-| 5-APP-WIRE | Gradio event handler wiring (app.py update) | ⬜ pending |  |  |
+| 5-APP-WIRE | Gradio event handler wiring (app.py update) | ✅ done | 2026-03-16 11:15 | 99de3ab |
 | 6-TEST-SMOKE | Smoke test suite (tests/test_smoke.py) | ⬜ pending |  |  |
