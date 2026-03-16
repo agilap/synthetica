@@ -11,7 +11,7 @@
 | 3-GENERATOR | Synthetic image generator (pipeline/generator.py) | ✅ done | 2026-03-16 11:03 | 0553383 |
 | 3-FILTER | Two-tier quality filter (pipeline/filter.py) | ✅ done | 2026-03-16 11:05 | c64fea9 |
 | 3-SIMILARITY | Similarity math + FID proxy (utils/similarity.py) | ✅ done | 2026-03-16 11:06 | 1e5037d |
-| 4-EXPORTER | Dataset exporter (pipeline/exporter.py) | ⬜ pending |  |  |
+| 4-EXPORTER | Dataset exporter (pipeline/exporter.py) | ✅ done | 2026-03-16 11:08 | f718fa2 |
 | 4-VRAM | VRAM guard utilities (utils/vram_guard.py) | ⬜ pending |  |  |
 | 5-APP | Gradio app layout (app.py) | ⬜ pending |  |  |
 | 5-APP-WIRE | Gradio event handler wiring (app.py update) | ⬜ pending |  |  |
