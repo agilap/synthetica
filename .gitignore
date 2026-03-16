@@ -40,3 +40,9 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+*.pyc
+*.pth
+*.safetensors
+sessions/*
+!sessions/.gitkeep

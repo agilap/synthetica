@@ -1,0 +1,13 @@
+lora_rank: 8
+lora_alpha: 16
+train_steps: 1000
+learning_rate: 0.0001
+batch_size: 1
+inference_steps: 4
+guidance_scale: 1.5
+similarity_threshold: 0.78
+min_real_images: 15
+resolution: 256
+model_id: "runwayml/stable-diffusion-v1-5"
+dinov2_model_id: "facebook/dinov2-small"
+clip_model_id: "openai/clip-vit-base-patch32"
