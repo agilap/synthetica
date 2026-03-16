@@ -16,6 +16,7 @@ from pathlib import Path
 
 import torch
 from diffusers import StableDiffusionPipeline
+from peft import PeftModel
 
 _MODEL_ID = "stabilityai/sd-turbo"
 
@@ -34,12 +35,12 @@ class SyntheticGenerator:
 
     def __init__(
         self,
-        lora_weights_dir: str,
+        lora_weights_dir: str = "./lora_output/",
         output_dir: str = "data/synthetic/",
         seed: int = 42,
     ) -> None:
-        self.lora_weights_dir = Path(lora_weights_dir)
-        self.output_dir = Path(output_dir)
+        self.lora_weights_dir = Path(lora_weights_dir).resolve()
+        self.output_dir = Path(output_dir).resolve()
         self.seed = seed
         self._pipeline: StableDiffusionPipeline | None = None
 
@@ -71,8 +72,8 @@ class SyntheticGenerator:
         )
         pipeline = pipeline.to(device)
 
-        # Inject the LoRA weights into the UNet attention layers.
-        pipeline.unet.load_attn_procs(str(self.lora_weights_dir))
+        # Inject the LoRA weights using PEFT (adapter_model.safetensors format).
+        pipeline.unet = PeftModel.from_pretrained(pipeline.unet, str(self.lora_weights_dir))
 
         # Disable the safety checker so it doesn't block synthetic outputs.
         pipeline.safety_checker = None

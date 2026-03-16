@@ -30,6 +30,8 @@ models/
 *.avi
 tmp/
 
+.github
+
 # OS
 .DS_Store
 Thumbs.db
