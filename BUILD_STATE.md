@@ -8,7 +8,7 @@
 | 1-FINGERPRINT | DINOv2 fingerprinter (utils/fingerprint.py) | ✅ done | 2026-03-16 10:57 | d0e8433 |
 | 2-QUANTIZE | Quantization utilities (utils/quantize.py) | ✅ done | 2026-03-16 11:00 | 8b1cbee |
 | 2-TRAINER | LoRA fine-tuner (pipeline/trainer.py) | ✅ done | 2026-03-16 11:02 | 7b5fd44 |
-| 3-GENERATOR | Synthetic image generator (pipeline/generator.py) | ⬜ pending |  |  |
+| 3-GENERATOR | Synthetic image generator (pipeline/generator.py) | ✅ done | 2026-03-16 11:03 | 0553383 |
 | 3-FILTER | Two-tier quality filter (pipeline/filter.py) | ⬜ pending |  |  |
 | 3-SIMILARITY | Similarity math + FID proxy (utils/similarity.py) | ⬜ pending |  |  |
 | 4-EXPORTER | Dataset exporter (pipeline/exporter.py) | ⬜ pending |  |  |
