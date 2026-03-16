@@ -9,7 +9,7 @@
 | 2-QUANTIZE | Quantization utilities (utils/quantize.py) | ✅ done | 2026-03-16 11:00 | 8b1cbee |
 | 2-TRAINER | LoRA fine-tuner (pipeline/trainer.py) | ✅ done | 2026-03-16 11:02 | 7b5fd44 |
 | 3-GENERATOR | Synthetic image generator (pipeline/generator.py) | ✅ done | 2026-03-16 11:03 | 0553383 |
-| 3-FILTER | Two-tier quality filter (pipeline/filter.py) | ⬜ pending |  |  |
+| 3-FILTER | Two-tier quality filter (pipeline/filter.py) | ✅ done | 2026-03-16 11:05 | c64fea9 |
 | 3-SIMILARITY | Similarity math + FID proxy (utils/similarity.py) | ⬜ pending |  |  |
 | 4-EXPORTER | Dataset exporter (pipeline/exporter.py) | ⬜ pending |  |  |
 | 4-VRAM | VRAM guard utilities (utils/vram_guard.py) | ⬜ pending |  |  |
