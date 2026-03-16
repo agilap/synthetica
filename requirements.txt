@@ -1,0 +1,16 @@
+torch==2.2.0
+xformers==0.0.26.post1
+bitsandbytes==0.43.3
+diffusers==0.29.2
+peft==0.11.1
+transformers==4.41.2
+accelerate==0.30.1
+torchvision==0.17.0
+gradio==4.25.0
+opencv-python==4.9.0.80
+Pillow==10.3.0
+numpy==1.26.4
+pyyaml>=6.0
+pytest>=8.0
+pytest-mock>=3.12
+scipy>=1.12

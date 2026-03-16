@@ -1,7 +1,7 @@
 | ID | Description | Status | Completed At | Commit Hash |
 | --- | --- | --- | --- | --- |
 | 0-STATE | Build tracker script and BUILD_STATE.md | ✅ done | 2026-03-16 10:45 | bc1f7ef |
-| 0-ENV | Environment setup script + requirements.txt | ⬜ pending |  |  |
+| 0-ENV | Environment setup script + requirements.txt | ✅ done | 2026-03-16 10:48 | 247141a |
 | 0-STRUCT | Project skeleton and directory structure | ⬜ pending |  |  |
 | 0-TYPES | Shared dataclasses (utils/types.py) | ⬜ pending |  |  |
 | 1-INGESTOR | Image ingestor (pipeline/ingestor.py) | ⬜ pending |  |  |
